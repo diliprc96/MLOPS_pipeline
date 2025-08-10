@@ -1,0 +1,58 @@
+    1  docker ps
+    2  docker ps -a
+    3  docker rm ff5873d7c9dc
+    4  docker build -t house_price_predictor -f api/Dockerfile .
+    5  docker run -d -p 8000:8000 --name house_price_predictor_container house_price_predictor
+    6  docker logs bf3b966d43
+    7  docker ps -a
+    8  ping http://localhost:5000
+    9  docker ps -a
+   10  python scripts/train_model.py 
+   11  python main.py 
+   12  docker run -d -p 8000:8000 --name house_price_predictor_container house_price_predictor
+   13  docker ps
+   14  docker ps -a
+   15  docker run -d -p 8000:8000 --name house_price_predictor_container house_price_predictor
+   16  docker run -d -p 8000:8000 bf3b966d4334
+   17  docker run -d -p 8000:8000 house_price_predictor
+   18  docker logs c1015cc3d41209
+   19  docker logs 880968321
+   20  docker ps 
+   21  docker logs friendly_galileo
+   22  export MLFLOW_TRACKING_URI=http://localhost:5000
+   23  uvicorn api.app:app --host 0.0.0.0 --port 8000
+   24  docker stop
+   25  docker stop friendly_galileo
+   26  docker ps
+   27  docker rm friendly_galileo
+   28  docker ps -a
+   29  docker run bf3b966d4334
+   30  docker run -d -p 8000:8000 house_price_predictor_container
+   31  docker rm house_price_predictor_container
+   32  docker ps
+   33  docker build -t house_price_predictor -f api/Dockerfile .
+   34  docker run -d -p 8000:8000 --name house_price_predictor_container house_price_predictor
+   35  curl http://localhost:5000
+   36  docker run -p 8000:8000   -e MLFLOW_TRACKING_URI=http://host.docker.internal:5000   house_price_predictor
+   37  docker ps
+   38  docker stop a90e24b6f3eb
+   39  docker run -d -p 8000:8000 -e MLFLOW_TRACKING_URI=http://host.docker.internal:5000 house_price_predictor_container
+   40  docker run -d -p 8000:8000 -e MLFLOW_TRACKING_URI=http://host.docker.internal:5000 house_price_predictor
+   41  hostname -I
+   42  docker stop 0a575451268437
+   43  docker run -p 8000:8000   -e MLFLOW_TRACKING_URI=http://172.17.0.1:5000   house_price_predictor
+   44  docker run -p 8000:8000   -e MLFLOW_TRACKING_URI=http://172.17.0.1:5000   -v /workspaces/MLOPS_pipeline/mlruns:/app/mlruns   house_price_predictor
+   45  docker run -p 8000:8000   -e MLFLOW_TRACKING_URI=http://172.17.0.1:5000   -v //workspaces/MLOPS_pipeline/mlruns:./mlruns   house_price_predictor
+   46  docker run -p 8000:8000   -e MLFLOW_TRACKING_URI=http://172.17.0.1:5000   -v //workspaces/MLOPS_pipeline/mlruns:/mlruns   house_price_predictor
+   47  docker run -p 8000:8000   -e MLFLOW_TRACKING_URI=http://172.17.0.1:5000   -v //workspaces/MLOPS_pipeline/mlruns:/app/mlruns   house_price_predictor
+   48  docker run -it -v /workspaces/MLOPS_pipeline/mlruns:/workspaces/MLOPS_pipeline/mlruns house_price_predictor bash
+   49  ls /workspaces/MLOPS_pipeline/mlruns
+   50  docker run -it -v /workspaces/MLOPS_pipeline/mlruns:/mlruns house_price_predictor bash
+   51  docker run -it -v /workspaces/MLOPS_pipeline/mlruns:/api/mlruns house_price_predictor bash
+   52  docker run -it -v /workspaces/MLOPS_pipeline/mlruns:/app/mlruns house_price_predictor bash
+   53  docker run -p 8000:8000   -e MLFLOW_TRACKING_URI=http://172.17.0.1:5000   -v //workspaces/MLOPS_pipeline/mlruns:/app/mlruns   house_price_predictor
+   54  docker run -it -v /workspaces/MLOPS_pipeline/mlruns:/app/mlruns house_price_predictor bash
+   55  ls mlruns/
+   56  docker run -p 8000:8000   -e MLFLOW_TRACKING_URI=http://172.17.0.1:5000   -v //workspaces/MLOPS_pipeline/mlruns:/app/mlruns   house_price_predictor
+   57  docker run -p 8000:8000   -e MLFLOW_TRACKING_URI=http://172.17.0.1:5000   -v /workspaces/MLOPS_pipeline/mlruns:/workspaces/MLOPS_pipeline/mlruns   house_price_predictor
+   58  ./backup_history.sh 
