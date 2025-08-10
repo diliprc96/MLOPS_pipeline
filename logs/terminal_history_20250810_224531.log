@@ -1,0 +1,47 @@
+    1  cd api
+    2  ls
+    3  docker build -t HousePricePredictor .
+    4  docker build -t house_price_predictor .
+    5  docker build -t house_price_predictor api/
+    6  cd ..
+    7  docker build -t house_price_predictor api/
+    8  ls
+    9  docker build -t house_price_predictor .
+   10  docker build -t house_price_predictor -f api/Dockerfile .
+   11  docker ps
+   12  docker logs house_price_predictor_container
+   13  docker run -d -p 8000:8000 --name house_price_predictor_container house_price_predictor
+   14  docker ps
+   15  docker ps -a
+   16  docker logs 7471e68deb45
+   17  docker rm 7471e68deb45
+   18  docker build -t house_price_predictor -f api/Dockerfile .
+   19  docker ps -a
+   20  docker -d -p 8000:8000 --name house_price_predictor_container house_price_predictor
+   21  docker run -d -p 8000:8000 --name house_price_predictor_container house_price_predictor
+   22  docker ps -a
+   23  docker ps
+   24  docker log b1ebaff70e8e
+   25  docker logs b1ebaff70e8e
+   26  docker ps -a
+   27  docker rm b1ebaff70e8e
+   28  docker ps -a
+   29  docker build -t house_price_predictor -f api/Dockerfile .
+   30  docker run -d -p 8000:8000 --name house_price_predictor_container house_price_predictor
+   31  docker ps
+   32  docker run -d -p 8000:8000 --name house_price_predictor_container house_price_predictor
+   33  docker exec -it house_price_predictor_container cat /app/logs/predictions.log
+   34  docker ps
+   35  docker run -d -p 8000:8000 --name house_price_predictor_container house_price_predictor
+   36  docker logs ff5873d7c9d
+   37  mlflow server
+   38  mlflow server   --backend-store-uri sqlite:///mlflow.db   --default-artifact-root ./mlruns   --host 0.0.0.0   --port 5000
+   39  mlflow ui
+   40  mlflow server   --backend-store-uri ./mlruns   --default-artifact-root ./mlruns   --host 0.0.0.0   --port 5000
+   41  git status
+   42  git add .
+   43  git commit -m "docker and mlflow integrated"
+   44  git push
+   45  ./backup_history.sh 
+   46  history
+   47  ./backup_history.sh 
