@@ -35,3 +35,8 @@ def predict(features: HousingFeatures):
     # Basic request/response logging
     logging.info(f"Request: {features.dict()} | Prediction: {prediction}")
     return {"prediction": prediction}
+
+@app.get("/")
+def root():
+    return {"message": "California Housing Prediction API is running!"}
+
