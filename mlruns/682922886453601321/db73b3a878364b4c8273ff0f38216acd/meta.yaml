@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/MLOPS_pipeline/mlruns/682922886453601321/db73b3a878364b4c8273ff0f38216acd/artifacts
+end_time: 1754661708237
+entry_point_name: ''
+experiment_id: '682922886453601321'
+lifecycle_stage: active
+run_id: db73b3a878364b4c8273ff0f38216acd
+run_name: honorable-bat-495
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754661708224
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/MLOPS_pipeline/mlruns/682922886453601321/dec0cf34290d44a8a3e66ac4c7371108/artifacts
+end_time: 1754662203651
+entry_point_name: ''
+experiment_id: '682922886453601321'
+lifecycle_stage: active
+run_id: dec0cf34290d44a8a3e66ac4c7371108
+run_name: abrasive-crane-813
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754662201222
+status: 3
+tags: []
+user_id: codespace

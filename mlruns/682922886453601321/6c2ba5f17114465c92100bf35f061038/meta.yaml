@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/MLOPS_pipeline/mlruns/682922886453601321/6c2ba5f17114465c92100bf35f061038/artifacts
+end_time: 1754815019928
+entry_point_name: ''
+experiment_id: '682922886453601321'
+lifecycle_stage: active
+run_id: 6c2ba5f17114465c92100bf35f061038
+run_name: tasteful-vole-803
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754815017803
+status: 3
+tags: []
+user_id: codespace

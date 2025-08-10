@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/MLOPS_pipeline/mlruns/682922886453601321/d74f1279e51f48d6b8f194b822c688a0/artifacts
+end_time: 1754813443168
+entry_point_name: ''
+experiment_id: '682922886453601321'
+lifecycle_stage: active
+run_id: d74f1279e51f48d6b8f194b822c688a0
+run_name: abundant-grub-465
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754813437261
+status: 3
+tags: []
+user_id: codespace

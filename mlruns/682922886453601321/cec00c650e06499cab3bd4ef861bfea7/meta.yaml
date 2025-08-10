@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/MLOPS_pipeline/mlruns/682922886453601321/cec00c650e06499cab3bd4ef861bfea7/artifacts
+end_time: 1754810263024
+entry_point_name: ''
+experiment_id: '682922886453601321'
+lifecycle_stage: active
+run_id: cec00c650e06499cab3bd4ef861bfea7
+run_name: zealous-ray-692
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754810260320
+status: 3
+tags: []
+user_id: codespace

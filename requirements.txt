@@ -1,0 +1,8 @@
+fastapi
+mlflow
+dvc
+uvicorn
+pydantic
+mlflow
+scikit-learn
+pandas

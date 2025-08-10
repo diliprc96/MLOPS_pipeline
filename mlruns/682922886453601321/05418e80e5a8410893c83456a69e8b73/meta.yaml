@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/MLOPS_pipeline/mlruns/682922886453601321/05418e80e5a8410893c83456a69e8b73/artifacts
+end_time: 1754809987102
+entry_point_name: ''
+experiment_id: '682922886453601321'
+lifecycle_stage: active
+run_id: 05418e80e5a8410893c83456a69e8b73
+run_name: capricious-bat-763
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754809985183
+status: 3
+tags: []
+user_id: codespace

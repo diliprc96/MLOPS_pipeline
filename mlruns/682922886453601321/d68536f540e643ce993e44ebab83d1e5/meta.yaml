@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/MLOPS_pipeline/mlruns/682922886453601321/d68536f540e643ce993e44ebab83d1e5/artifacts
+end_time: 1754810265269
+entry_point_name: ''
+experiment_id: '682922886453601321'
+lifecycle_stage: active
+run_id: d68536f540e643ce993e44ebab83d1e5
+run_name: hilarious-loon-676
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754810263026
+status: 3
+tags: []
+user_id: codespace

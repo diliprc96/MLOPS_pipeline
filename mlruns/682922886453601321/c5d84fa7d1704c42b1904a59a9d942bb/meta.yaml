@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/MLOPS_pipeline/mlruns/682922886453601321/c5d84fa7d1704c42b1904a59a9d942bb/artifacts
+end_time: 1754813449293
+entry_point_name: ''
+experiment_id: '682922886453601321'
+lifecycle_stage: active
+run_id: c5d84fa7d1704c42b1904a59a9d942bb
+run_name: zealous-shrike-590
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754813447292
+status: 3
+tags: []
+user_id: codespace

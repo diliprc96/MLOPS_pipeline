@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/MLOPS_pipeline/mlruns/682922886453601321/229f91c584204b83a824b07b17b9aebb/artifacts
+end_time: 1754662253821
+entry_point_name: ''
+experiment_id: '682922886453601321'
+lifecycle_stage: active
+run_id: 229f91c584204b83a824b07b17b9aebb
+run_name: amazing-owl-559
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754662251280
+status: 3
+tags: []
+user_id: codespace

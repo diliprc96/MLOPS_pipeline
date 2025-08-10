@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/MLOPS_pipeline/mlruns/682922886453601321/2fd33f3682234e1f9a8a848d52b4b40f/artifacts
+end_time: 1754815017799
+entry_point_name: ''
+experiment_id: '682922886453601321'
+lifecycle_stage: active
+run_id: 2fd33f3682234e1f9a8a848d52b4b40f
+run_name: debonair-stoat-385
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754815015174
+status: 3
+tags: []
+user_id: codespace

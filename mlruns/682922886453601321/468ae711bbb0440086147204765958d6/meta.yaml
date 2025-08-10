@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/MLOPS_pipeline/mlruns/682922886453601321/468ae711bbb0440086147204765958d6/artifacts
+end_time: 1754815028652
+entry_point_name: ''
+experiment_id: '682922886453601321'
+lifecycle_stage: active
+run_id: 468ae711bbb0440086147204765958d6
+run_name: loud-whale-715
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754815026377
+status: 3
+tags: []
+user_id: codespace

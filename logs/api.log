@@ -1,0 +1,1 @@
+2025-08-10 08:41:55,809 INFO Request: {'MedInc': 45.0, 'HouseAge': 74.0, 'AveRooms': 4.0, 'AveBedrms': 3.0, 'Population': 4000.0, 'AveOccup': 5.0, 'Latitude': 12.1524, 'Longitude': 1425.0} | Prediction: 3.913

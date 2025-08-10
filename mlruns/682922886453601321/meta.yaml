@@ -1,0 +1,6 @@
+artifact_location: file:///workspaces/MLOPS_pipeline/mlruns/682922886453601321
+creation_time: 1754661127725
+experiment_id: '682922886453601321'
+last_update_time: 1754661127725
+lifecycle_stage: active
+name: california_housing_regression

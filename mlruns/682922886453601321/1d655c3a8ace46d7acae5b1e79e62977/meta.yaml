@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/MLOPS_pipeline/mlruns/682922886453601321/1d655c3a8ace46d7acae5b1e79e62977/artifacts
+end_time: 1754810274287
+entry_point_name: ''
+experiment_id: '682922886453601321'
+lifecycle_stage: active
+run_id: 1d655c3a8ace46d7acae5b1e79e62977
+run_name: honorable-snail-470
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754810271558
+status: 3
+tags: []
+user_id: codespace

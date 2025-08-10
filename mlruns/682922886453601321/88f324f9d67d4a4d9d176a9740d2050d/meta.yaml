@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/MLOPS_pipeline/mlruns/682922886453601321/88f324f9d67d4a4d9d176a9740d2050d/artifacts
+end_time: 1754809985182
+entry_point_name: ''
+experiment_id: '682922886453601321'
+lifecycle_stage: active
+run_id: 88f324f9d67d4a4d9d176a9740d2050d
+run_name: spiffy-wasp-305
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754809983170
+status: 3
+tags: []
+user_id: codespace

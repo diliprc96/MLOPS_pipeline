@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/MLOPS_pipeline/mlruns/682922886453601321/32a5e64fc1b14b6eaa9ea8d1d1533c3a/artifacts
+end_time: 1754813636343
+entry_point_name: ''
+experiment_id: '682922886453601321'
+lifecycle_stage: active
+run_id: 32a5e64fc1b14b6eaa9ea8d1d1533c3a
+run_name: nosy-dove-301
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754813634321
+status: 3
+tags: []
+user_id: codespace

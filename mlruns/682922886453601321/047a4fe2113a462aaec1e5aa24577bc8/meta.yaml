@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/MLOPS_pipeline/mlruns/682922886453601321/047a4fe2113a462aaec1e5aa24577bc8/artifacts
+end_time: 1754663222107
+entry_point_name: ''
+experiment_id: '682922886453601321'
+lifecycle_stage: active
+run_id: 047a4fe2113a462aaec1e5aa24577bc8
+run_name: ambitious-mare-643
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754663219715
+status: 3
+tags: []
+user_id: codespace

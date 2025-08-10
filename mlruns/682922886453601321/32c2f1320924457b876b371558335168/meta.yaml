@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/MLOPS_pipeline/mlruns/682922886453601321/32c2f1320924457b876b371558335168/artifacts
+end_time: 1754810267370
+entry_point_name: ''
+experiment_id: '682922886453601321'
+lifecycle_stage: active
+run_id: 32c2f1320924457b876b371558335168
+run_name: rogue-shoat-77
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754810265271
+status: 3
+tags: []
+user_id: codespace

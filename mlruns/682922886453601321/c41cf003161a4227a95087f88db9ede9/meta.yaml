@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/MLOPS_pipeline/mlruns/682922886453601321/c41cf003161a4227a95087f88db9ede9/artifacts
+end_time: 1754813640679
+entry_point_name: ''
+experiment_id: '682922886453601321'
+lifecycle_stage: active
+run_id: c41cf003161a4227a95087f88db9ede9
+run_name: flawless-quail-181
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754813638433
+status: 3
+tags: []
+user_id: codespace
