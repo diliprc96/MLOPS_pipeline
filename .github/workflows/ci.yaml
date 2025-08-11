@@ -38,7 +38,7 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t house_price_predictor .
+        docker build -t house_price_predictor -f api/Dockerfile .
 
     # OPTIONAL: Push Docker image to Docker Hub
     # Uncomment this section after you add DockerHub secrets to your repo settings
