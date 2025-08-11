@@ -23,12 +23,18 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-#        pip install flake8
         
 
-    # - name: Lint with flake8
-    #   run: |
-    #     flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+    - name: Lint with flake8
+      run: |
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+
+# Only report errors/warnings with codes:
+
+# E9: Syntax errors, indentation errors, and other Python parse errors
+# F63: Issues with “comparison with is literals” and others (e.g., F631)
+# F7: Errors related to misplaced or undefined variables (e.g., F701)
+# F82: Variable assignment before definition, undefined or unused variables (It skips all other error/warning codes!)
 
     # OPTIONAL: Run tests if you add them
     # - name: Run tests with pytest
