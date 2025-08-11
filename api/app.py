@@ -7,11 +7,31 @@ import logging
 from prometheus_client import Counter, Histogram, generate_latest, CONTENT_TYPE_LATEST
 from fastapi import Response, Request
 import time
+from pydantic import BaseModel, Field, validator
 
 # Counts number of prediction requests
 REQUEST_COUNT = Counter("prediction_requests_total", "Total number of prediction requests")
 # Measures prediction latency in seconds
 PREDICTION_DURATION = Histogram("prediction_duration_seconds", "Prediction latency (seconds)")
+
+
+
+class HousingFeatures(BaseModel):
+    MedInc: float = Field(..., gt=0, description="Median income, must be positive")
+    HouseAge: float = Field(..., ge=0, le=100, description="Age of house, 0-100 years")
+    AveRooms: float = Field(..., gt=0, description="Average number of rooms; must be >0")
+    AveBedrms: float = Field(..., gt=0, description="Average number of bedrooms; must be >0")
+    Population: float = Field(..., gt=0, description="Population must be positive")
+    AveOccup: float = Field(..., gt=0, description="Average occupancy must be positive")
+    Latitude: float = Field(..., ge=32.0, le=42.0, description="Latitude for California range (32-42)")
+    Longitude: float = Field(..., ge=-124.5, le=-114.0, description="Longitude for California range (-124.5 to -114)")
+
+    @validator("AveBedrms")
+    def bedrooms_less_than_rooms(cls, v, values):
+        rooms = values.get("AveRooms")
+        if rooms is not None and v > rooms:
+            raise ValueError("Average bedrooms cannot exceed average rooms")
+        return v
 
 
 # Optional: configure logging
