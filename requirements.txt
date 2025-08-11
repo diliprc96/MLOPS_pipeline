@@ -7,3 +7,4 @@ mlflow
 scikit-learn
 pandas
 flake8
+prometheus_client
