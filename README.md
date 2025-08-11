@@ -19,4 +19,9 @@ docker run -d --name grafana -p 3000:3000 grafana/grafana
 
 curl -X POST http://localhost:8000/predict \
   -H 'Content-Type: application/json' \
-  -d '{"MedInc": 8, "HouseAge": 25, "AveRooms": 4, "AveBedrms": 1, "Population": 800, "AveOccup": 2.5, "Latitude": 37, "Longitude": -122}'
+  -d '{"MedInc": 6, "HouseAge": 25, "AveRooms": 8, "AveBedrms": 1, "Population": 800, "AveOccup": 2.5, "Latitude": 37, "Longitude": -122}'
+
+docker network connect mlops-net prometheus
+docker network connect mlops-net grafana
+
+http://prometheus:9090

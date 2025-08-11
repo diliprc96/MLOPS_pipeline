@@ -25,7 +25,7 @@ model_configs = [
 ]
 
 # Seeds to train with
-seeds = [42, 85]
+seeds = [42, 85, 23]
 
 data_path = "data/california_housing.csv"
 
